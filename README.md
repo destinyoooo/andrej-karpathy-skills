@@ -123,6 +123,14 @@ echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
+**Option C: npx (global installation)**
+
+```bash
+npx skills add https://github.com/forrestchang/andrej-karpathy-skills --skill karpathy-guidelines
+```
+
+This command downloads the guidelines and installs them as a skill, making them available globally in Claude Code.
+
 ## Key Insight
 
 From Andrej:
